@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cairo:wght@300;900&family=Martel+Sans&family=Mitr&family=Poppins:wght@500&family=Roboto+Slab&family=Roboto:ital@1&family=Tajawal:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Mitr', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    background-color: #A7BEFE;
+}
+
+.cont {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    width: 100%;
+}
+
+.myform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.background-clip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media(min-aspect-ratio:16/9) {
+    .background-clip {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .background-clip {
+        height: 100%;
+        width: auto;
+    }
+}
+
+form {
+    background-color: #F3F8FF;
+    padding: 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container {
+    margin: auto;
+}
+
+.disp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heder h1 {
+    color: #7E30E1;
+    font-weight: bolder;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 212px;
+    height: 150px;
+    margin: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.two a {
+    color: #000;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #A7BEFE;
+    padding: 8px 14px;
+    font-size: 20px;
+}
